@@ -1,0 +1,14 @@
+best_model.pth
+
+# 数据集目录
+train/
+val/
+test/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 环境文件
+envs/
+.DS_Store
