@@ -12,3 +12,4 @@ __pycache__/
 # 环境文件
 envs/
 .DS_Store
+__pycache__/
