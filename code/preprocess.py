@@ -44,7 +44,7 @@ def process_isic_data(root_path, output_path, img_size=(256, 256)):
         # 获取所有原始图像的路径
         image_paths = glob.glob(os.path.join(img_folder, "*.jpg"))
         
-        # 【关键改进】检查是否找到了任何图像
+        # 检查是否找到了任何图像
         if not image_paths:
             print(f"警告: 在文件夹 '{img_folder}' 中没有找到任何 .jpg 图像。请检查路径或文件扩展名。")
             continue
